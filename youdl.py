@@ -85,8 +85,6 @@ class YouTubeDownLoader:
 			self.processUrl(url)
 
 
-#download the file:
-#close file because we dont need it anymore:
 	def processQuery(self, query, filePrefix, options):
 		limit = 50
 		start = 1
